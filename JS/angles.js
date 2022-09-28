@@ -1,13 +1,15 @@
-let angle1 = parseInt(document.querySelector('#angle1').value);
-let angle2 = parseInt(document.querySelector('#angle2').value);
-let angle3 = parseInt(document.querySelector('#angle3').value);
+let angle1 = document.querySelector('#angle1');
+let angle2 = document.querySelector('#angle2');
+let angle3 = document.querySelector('#angle3');
 
 let btn = document.querySelector('.btn');
 let declaration = document.querySelector('.declaration');
 
 btn.addEventListener('click', function () {
-    let triangleCheck = angle1 + angle2 + angle3;
+    let triangleCheck = parseInt(angle1.value) + parseInt(angle2.value) + parseInt(angle3.value);
     if (triangleCheck != 180) {
         declaration.innerText = "Oh Oh! The angle doesn't form a triangle";
-    }declaration.innerText = "Yay, the angles form a triangle!";
+    } else {
+        declaration.innerText = "Yay, the angles form a triangle!";
+    }
 })
