@@ -54,6 +54,14 @@ body{
     margin-top: 1rem;
     margin-bottom: 2.5rem;
 }
+.formulaHead{
+    font-family: 'Cutive Mono', monospace;
+    margin-bottom: 0;
+}
+.formulaSubHead{
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 0.5rem;
+}
 
 /* quiz */
 p{
