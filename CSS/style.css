@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cutive+Mono&family=Lobster+Two&display=swap');
+
+
 /* body  */
 body{
     text-align: center;
@@ -6,11 +9,15 @@ body{
 
 /* navbar */
 .navbar{
-    background-color: #b9bdb5;
+    background-color: #06283D;
     text-align: left;
+    padding: 1rem;
+    color: #DFF6FF;
 }
 .navBrand{
     margin-top: 0;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 0;
 }
 .navList{
     text-align: right;
@@ -18,4 +25,96 @@ body{
 .navItems{
     display: inline-block;
     padding: 0 1rem;
+}
+.navLinks{
+    text-decoration: none;
+    font-family: 'Cutive Mono', monospace;
+}
+.navLinks:visited{
+    color: #DFF6FF;
+}
+.current-page{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* heading  */
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.subHead{
+    font-family: 'Alkalami', serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* quiz */
+p{
+    font-size: 1.4rem;
+    color: #3D8361;
+    margin-bottom: 0.4rem;
+}
+.label{
+    font-size: 1.2rem;
+}
+.question-container{
+    margin-bottom: 2rem;
+}
+
+/* btn  */
+.btn{
+    padding: 0.5rem 2rem;
+    background-color: #06283D;
+    color: #DFF6FF;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 0.7rem;
+}
+
+/* declaration */
+.declaration{
+    font-family: 'Alkalami', serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* footer  */
+.footLink{
+    text-decoration: none;
+    margin: auto;
+}
+.footItems{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    list-style: none;
+}
+.footList{
+    list-style: none;
+    margin-top: 0;
+}
+.footCenter{
+    width: 20%;
+    margin-left: 39%;
+    margin-right: 41%;
+}
+.footImg{
+    height: 1.5rem;
+}
+.navHr{
+    display: inline-block;
+    height: 2rem;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+.footHead{
+    margin-bottom: 0;
 }

@@ -1,5 +1,5 @@
 let form = document.querySelector('.form');
-let btn = document.querySelector('.submit');
+let btn = document.querySelector('.btn');
 let declaration = document.querySelector('.declaration');
 
 let answerArr = [
@@ -26,3 +26,7 @@ btn.addEventListener('click', function(){
     }
     declaration.innerText = 'You scored '+score;
 })
+
+let today = new Date();
+let year = document.querySelector('.year');
+year.innerText = today.getDate() + '/' + (today.getMonth()+1) + '/'  + today.getFullYear();
