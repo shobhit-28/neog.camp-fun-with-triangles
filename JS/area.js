@@ -11,3 +11,7 @@ btn.addEventListener('click', function () {
     let area = Math.sqrt(semiPerimeter * (semiPerimeter - parseInt(side1.value)) * (semiPerimeter - parseInt(side2.value)) * (semiPerimeter - parseInt(side3.value)));
     declaration.innerText = "Area of a triangle using heron's formula " + area + " units";
 })
+
+let today = new Date();
+let year = document.querySelector('.year');
+year.innerText = today.getDate() + '/' + (today.getMonth()+1) + '/'  + today.getFullYear();
