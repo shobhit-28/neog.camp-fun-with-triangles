@@ -13,3 +13,7 @@ btn.addEventListener('click', function () {
         declaration.innerText = "Yay, the angles form a triangle!";
     }
 })
+
+let today = new Date();
+let year = document.querySelector('.year');
+year.innerText = today.getDate() + '/' + (today.getMonth()+1) + '/'  + today.getFullYear();

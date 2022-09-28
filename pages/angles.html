@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is triangle?</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="shortcut icon" href="/images/angle.png" type="image/x-icon">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         </h1>
         <ul class="navList">
             <li class="navItems">
-                <a href="angles.html" class="navLinks">
+                <a href="angles.html" class="navLinks current-page">
                     is triangle?
                 </a>
             </li>
@@ -47,9 +48,9 @@
         Angle1
         <input type="number" name="" id="angle1" min="0" max="180" />
     </label>
-    <label class="angle" style="display: block;">
+    <label class="angle">
         Angle2
-        <input type="number" name="" id="angle2" min="0" max="180" style="display: block; margin: auto;" />
+        <input type="number" name="" id="angle2" min="0" max="180" />
     </label>
     <label class="angle">
         Angle3
@@ -62,19 +63,26 @@
 
     <h3 class="declaration"></h3>
 
-    <div class="foot">
+    <footer class="footer">
         <h3 class="footHead">
-            © | 2021 | Shobhit Raj
+            © | <span class="year"></span> | Shobhit Raj
         </h3>
-        <ul class="footList">
-            <li class="footItems">
-                <a href="https://github.com/shobhit-28">Github</a>
-            </li>
-            <li class="footItems">
-                <a href="https://www.linkedin.com/in/shobhit-raj-19a588215/">linkedin</a>
-            </li>
-        </ul>
-    </div>
+        <div class="footCenter">
+            <ul class="footList">
+                <li class="footItems">
+                    <a href="https://github.com/shobhit-28" class="footLink">
+                        <img src="/images/github.png" alt="github" class="footImg">
+                    </a>
+                </li>
+                <hr class="navHr" />
+                <li class="footItems">
+                    <a href="https://www.linkedin.com/in/shobhit-raj-19a588215/" class="footLink">
+                        <img src="/images/linkedin.png" alt="linkedin" class="footImg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="/JS/angles.js"></script>
 </body>
