@@ -41,25 +41,26 @@
     <h1 class="heading">
         Angles of triangles
     </h1>
-    <form class="form">
-        <label class="angle">
-            Angle1
-            <input type="number" name="" id="" />
-        </label>
-        <label class="angle" style="display: block;">
-            Angle2
-            <input type="number" name="" id="" style="display: block; margin: auto;"/>
-        </label>
-        <label class="angle">
-            Angle3
-            <input type="number" name="" id="" />
-        </label>
-    </form>
+
+
+    <label class="angle">
+        Angle1
+        <input type="number" name="" id="angle1" min="0" max="180" />
+    </label>
+    <label class="angle" style="display: block;">
+        Angle2
+        <input type="number" name="" id="angle2" min="0" max="180" style="display: block; margin: auto;" />
+    </label>
+    <label class="angle">
+        Angle3
+        <input type="number" name="" id="angle3" min="0" max="180"  />
+    </label>
 
     <button class="btn">
         Is triangle?
     </button>
 
+    <h3 class="declaration"></h3>
 
     <div class="foot">
         <h3 class="footHead">
@@ -75,6 +76,7 @@
         </ul>
     </div>
 
+    <script src="/JS/angles.js"></script>
 </body>
 
 </html>
