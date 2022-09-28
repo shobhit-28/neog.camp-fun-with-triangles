@@ -1,0 +1,21 @@
+/* body  */
+body{
+    text-align: center;
+    margin: auto;
+}
+
+/* navbar */
+.navbar{
+    background-color: #b9bdb5;
+    text-align: left;
+}
+.navBrand{
+    margin-top: 0;
+}
+.navList{
+    text-align: right;
+}
+.navItems{
+    display: inline-block;
+    padding: 0 1rem;
+}
