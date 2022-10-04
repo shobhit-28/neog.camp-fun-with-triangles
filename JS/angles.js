@@ -6,11 +6,15 @@ let btn = document.querySelector('.btn');
 let declaration = document.querySelector('.declaration');
 
 btn.addEventListener('click', function () {
-    let triangleCheck = parseInt(angle1.value) + parseInt(angle2.value) + parseInt(angle3.value);
-    if (triangleCheck != 180) {
-        declaration.innerText = "Oh Oh! The angle doesn't form a triangle";
+    if (angle1.value <= 0 || angle2.value <= 0 || angle3.value <= 0) {
+        declaration.innerText = 'Enter a valid value'
     } else {
-        declaration.innerText = "Yay, the angles form a triangle!";
+        let triangleCheck = parseInt(angle1.value) + parseInt(angle2.value) + parseInt(angle3.value);
+        if (triangleCheck != 180) {
+            declaration.innerText = "Oh Oh! The angle doesn't form a triangle";
+        } else {
+            declaration.innerText = "Yay, the angles form a triangle!";
+        }
     }
 })
 
